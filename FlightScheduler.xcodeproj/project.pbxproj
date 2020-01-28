@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D406A88023E0900B00FEAFAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D406A87F23E0900B00FEAFAD /* AppDelegate.swift */; };
+		D406A88223E0900B00FEAFAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D406A88123E0900B00FEAFAD /* SceneDelegate.swift */; };
+		D406A88423E0900B00FEAFAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D406A88323E0900B00FEAFAD /* ViewController.swift */; };
+		D406A88723E0900B00FEAFAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D406A88523E0900B00FEAFAD /* Main.storyboard */; };
+		D406A88923E0900D00FEAFAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D406A88823E0900D00FEAFAD /* Assets.xcassets */; };
+		D406A88C23E0900D00FEAFAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D406A88A23E0900D00FEAFAD /* LaunchScreen.storyboard */; };
+		D406A89723E0900D00FEAFAD /* FlightSchedulerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D406A89623E0900D00FEAFAD /* FlightSchedulerTests.swift */; };
+		D406A8A223E0900D00FEAFAD /* FlightSchedulerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D406A8A123E0900D00FEAFAD /* FlightSchedulerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D406A89323E0900D00FEAFAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D406A87423E0900B00FEAFAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D406A87B23E0900B00FEAFAD;
+			remoteInfo = FlightScheduler;
+		};
+		D406A89E23E0900D00FEAFAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D406A87423E0900B00FEAFAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D406A87B23E0900B00FEAFAD;
+			remoteInfo = FlightScheduler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D406A87C23E0900B00FEAFAD /* FlightScheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlightScheduler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D406A87F23E0900B00FEAFAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D406A88123E0900B00FEAFAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D406A88323E0900B00FEAFAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D406A88623E0900B00FEAFAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D406A88823E0900D00FEAFAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D406A88B23E0900D00FEAFAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D406A88D23E0900D00FEAFAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D406A89223E0900D00FEAFAD /* FlightSchedulerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlightSchedulerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D406A89623E0900D00FEAFAD /* FlightSchedulerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightSchedulerTests.swift; sourceTree = "<group>"; };
+		D406A89823E0900D00FEAFAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D406A89D23E0900D00FEAFAD /* FlightSchedulerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlightSchedulerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D406A8A123E0900D00FEAFAD /* FlightSchedulerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightSchedulerUITests.swift; sourceTree = "<group>"; };
+		D406A8A323E0900D00FEAFAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D406A87923E0900B00FEAFAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D406A88F23E0900D00FEAFAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D406A89A23E0900D00FEAFAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D406A87323E0900B00FEAFAD = {
+			isa = PBXGroup;
+			children = (
+				D406A87E23E0900B00FEAFAD /* FlightScheduler */,
+				D406A89523E0900D00FEAFAD /* FlightSchedulerTests */,
+				D406A8A023E0900D00FEAFAD /* FlightSchedulerUITests */,
+				D406A87D23E0900B00FEAFAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D406A87D23E0900B00FEAFAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D406A87C23E0900B00FEAFAD /* FlightScheduler.app */,
+				D406A89223E0900D00FEAFAD /* FlightSchedulerTests.xctest */,
+				D406A89D23E0900D00FEAFAD /* FlightSchedulerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D406A87E23E0900B00FEAFAD /* FlightScheduler */ = {
+			isa = PBXGroup;
+			children = (
+				D406A87F23E0900B00FEAFAD /* AppDelegate.swift */,
+				D406A88123E0900B00FEAFAD /* SceneDelegate.swift */,
+				D406A88323E0900B00FEAFAD /* ViewController.swift */,
+				D406A88523E0900B00FEAFAD /* Main.storyboard */,
+				D406A88823E0900D00FEAFAD /* Assets.xcassets */,
+				D406A88A23E0900D00FEAFAD /* LaunchScreen.storyboard */,
+				D406A88D23E0900D00FEAFAD /* Info.plist */,
+			);
+			path = FlightScheduler;
+			sourceTree = "<group>";
+		};
+		D406A89523E0900D00FEAFAD /* FlightSchedulerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D406A89623E0900D00FEAFAD /* FlightSchedulerTests.swift */,
+				D406A89823E0900D00FEAFAD /* Info.plist */,
+			);
+			path = FlightSchedulerTests;
+			sourceTree = "<group>";
+		};
+		D406A8A023E0900D00FEAFAD /* FlightSchedulerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D406A8A123E0900D00FEAFAD /* FlightSchedulerUITests.swift */,
+				D406A8A323E0900D00FEAFAD /* Info.plist */,
+			);
+			path = FlightSchedulerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D406A87B23E0900B00FEAFAD /* FlightScheduler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D406A8A623E0900D00FEAFAD /* Build configuration list for PBXNativeTarget "FlightScheduler" */;
+			buildPhases = (
+				D406A87823E0900B00FEAFAD /* Sources */,
+				D406A87923E0900B00FEAFAD /* Frameworks */,
+				D406A87A23E0900B00FEAFAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlightScheduler;
+			productName = FlightScheduler;
+			productReference = D406A87C23E0900B00FEAFAD /* FlightScheduler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D406A89123E0900D00FEAFAD /* FlightSchedulerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D406A8A923E0900D00FEAFAD /* Build configuration list for PBXNativeTarget "FlightSchedulerTests" */;
+			buildPhases = (
+				D406A88E23E0900D00FEAFAD /* Sources */,
+				D406A88F23E0900D00FEAFAD /* Frameworks */,
+				D406A89023E0900D00FEAFAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D406A89423E0900D00FEAFAD /* PBXTargetDependency */,
+			);
+			name = FlightSchedulerTests;
+			productName = FlightSchedulerTests;
+			productReference = D406A89223E0900D00FEAFAD /* FlightSchedulerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D406A89C23E0900D00FEAFAD /* FlightSchedulerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D406A8AC23E0900D00FEAFAD /* Build configuration list for PBXNativeTarget "FlightSchedulerUITests" */;
+			buildPhases = (
+				D406A89923E0900D00FEAFAD /* Sources */,
+				D406A89A23E0900D00FEAFAD /* Frameworks */,
+				D406A89B23E0900D00FEAFAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D406A89F23E0900D00FEAFAD /* PBXTargetDependency */,
+			);
+			name = FlightSchedulerUITests;
+			productName = FlightSchedulerUITests;
+			productReference = D406A89D23E0900D00FEAFAD /* FlightSchedulerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D406A87423E0900B00FEAFAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Practice;
+				TargetAttributes = {
+					D406A87B23E0900B00FEAFAD = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					D406A89123E0900D00FEAFAD = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D406A87B23E0900B00FEAFAD;
+					};
+					D406A89C23E0900D00FEAFAD = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D406A87B23E0900B00FEAFAD;
+					};
+				};
+			};
+			buildConfigurationList = D406A87723E0900B00FEAFAD /* Build configuration list for PBXProject "FlightScheduler" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D406A87323E0900B00FEAFAD;
+			productRefGroup = D406A87D23E0900B00FEAFAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D406A87B23E0900B00FEAFAD /* FlightScheduler */,
+				D406A89123E0900D00FEAFAD /* FlightSchedulerTests */,
+				D406A89C23E0900D00FEAFAD /* FlightSchedulerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D406A87A23E0900B00FEAFAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D406A88C23E0900D00FEAFAD /* LaunchScreen.storyboard in Resources */,
+				D406A88923E0900D00FEAFAD /* Assets.xcassets in Resources */,
+				D406A88723E0900B00FEAFAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D406A89023E0900D00FEAFAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D406A89B23E0900D00FEAFAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D406A87823E0900B00FEAFAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D406A88423E0900B00FEAFAD /* ViewController.swift in Sources */,
+				D406A88023E0900B00FEAFAD /* AppDelegate.swift in Sources */,
+				D406A88223E0900B00FEAFAD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D406A88E23E0900D00FEAFAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D406A89723E0900D00FEAFAD /* FlightSchedulerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D406A89923E0900D00FEAFAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D406A8A223E0900D00FEAFAD /* FlightSchedulerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D406A89423E0900D00FEAFAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D406A87B23E0900B00FEAFAD /* FlightScheduler */;
+			targetProxy = D406A89323E0900D00FEAFAD /* PBXContainerItemProxy */;
+		};
+		D406A89F23E0900D00FEAFAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D406A87B23E0900B00FEAFAD /* FlightScheduler */;
+			targetProxy = D406A89E23E0900D00FEAFAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D406A88523E0900B00FEAFAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D406A88623E0900B00FEAFAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D406A88A23E0900D00FEAFAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D406A88B23E0900D00FEAFAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D406A8A423E0900D00FEAFAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D406A8A523E0900D00FEAFAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D406A8A723E0900D00FEAFAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QRHT5824H8;
+				INFOPLIST_FILE = FlightScheduler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Practice.FlightScheduler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D406A8A823E0900D00FEAFAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QRHT5824H8;
+				INFOPLIST_FILE = FlightScheduler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Practice.FlightScheduler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D406A8AA23E0900D00FEAFAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QRHT5824H8;
+				INFOPLIST_FILE = FlightSchedulerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Practice.FlightSchedulerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlightScheduler.app/FlightScheduler";
+			};
+			name = Debug;
+		};
+		D406A8AB23E0900D00FEAFAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QRHT5824H8;
+				INFOPLIST_FILE = FlightSchedulerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Practice.FlightSchedulerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlightScheduler.app/FlightScheduler";
+			};
+			name = Release;
+		};
+		D406A8AD23E0900D00FEAFAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QRHT5824H8;
+				INFOPLIST_FILE = FlightSchedulerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Practice.FlightSchedulerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlightScheduler;
+			};
+			name = Debug;
+		};
+		D406A8AE23E0900D00FEAFAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QRHT5824H8;
+				INFOPLIST_FILE = FlightSchedulerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Practice.FlightSchedulerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlightScheduler;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D406A87723E0900B00FEAFAD /* Build configuration list for PBXProject "FlightScheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D406A8A423E0900D00FEAFAD /* Debug */,
+				D406A8A523E0900D00FEAFAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D406A8A623E0900D00FEAFAD /* Build configuration list for PBXNativeTarget "FlightScheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D406A8A723E0900D00FEAFAD /* Debug */,
+				D406A8A823E0900D00FEAFAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D406A8A923E0900D00FEAFAD /* Build configuration list for PBXNativeTarget "FlightSchedulerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D406A8AA23E0900D00FEAFAD /* Debug */,
+				D406A8AB23E0900D00FEAFAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D406A8AC23E0900D00FEAFAD /* Build configuration list for PBXNativeTarget "FlightSchedulerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D406A8AD23E0900D00FEAFAD /* Debug */,
+				D406A8AE23E0900D00FEAFAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D406A87423E0900B00FEAFAD /* Project object */;
+}
