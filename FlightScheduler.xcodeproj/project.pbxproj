@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D406A88023E0900B00FEAFAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D406A87F23E0900B00FEAFAD /* AppDelegate.swift */; };
-		D406A88223E0900B00FEAFAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D406A88123E0900B00FEAFAD /* SceneDelegate.swift */; };
 		D406A88423E0900B00FEAFAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D406A88323E0900B00FEAFAD /* ViewController.swift */; };
 		D406A88723E0900B00FEAFAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D406A88523E0900B00FEAFAD /* Main.storyboard */; };
 		D406A88923E0900D00FEAFAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D406A88823E0900D00FEAFAD /* Assets.xcassets */; };
@@ -37,7 +36,6 @@
 /* Begin PBXFileReference section */
 		D406A87C23E0900B00FEAFAD /* FlightScheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlightScheduler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D406A87F23E0900B00FEAFAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D406A88123E0900B00FEAFAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D406A88323E0900B00FEAFAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D406A88623E0900B00FEAFAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D406A88823E0900D00FEAFAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,7 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				D406A87F23E0900B00FEAFAD /* AppDelegate.swift */,
-				D406A88123E0900B00FEAFAD /* SceneDelegate.swift */,
 				D406A88323E0900B00FEAFAD /* ViewController.swift */,
 				D406A88523E0900B00FEAFAD /* Main.storyboard */,
 				D406A88823E0900D00FEAFAD /* Assets.xcassets */,
@@ -261,7 +258,6 @@
 			files = (
 				D406A88423E0900B00FEAFAD /* ViewController.swift in Sources */,
 				D406A88023E0900B00FEAFAD /* AppDelegate.swift in Sources */,
-				D406A88223E0900B00FEAFAD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +433,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QRHT5824H8;
 				INFOPLIST_FILE = FlightScheduler/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -444,7 +441,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Practice.FlightScheduler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -455,6 +452,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QRHT5824H8;
 				INFOPLIST_FILE = FlightScheduler/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,7 +460,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Practice.FlightScheduler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
