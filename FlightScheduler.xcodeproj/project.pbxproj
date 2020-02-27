@@ -15,6 +15,8 @@
 		D406A88C23E0900D00FEAFAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D406A88A23E0900D00FEAFAD /* LaunchScreen.storyboard */; };
 		D406A89723E0900D00FEAFAD /* FlightSchedulerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D406A89623E0900D00FEAFAD /* FlightSchedulerTests.swift */; };
 		D406A8A223E0900D00FEAFAD /* FlightSchedulerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D406A8A123E0900D00FEAFAD /* FlightSchedulerUITests.swift */; };
+		FAE0819C2406F78B009DB7CF /* APICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE0819B2406F78B009DB7CF /* APICall.swift */; };
+		FAE081DA2407A994009DB7CF /* UserToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE081D92407A993009DB7CF /* UserToken.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		D406A89D23E0900D00FEAFAD /* FlightSchedulerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlightSchedulerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D406A8A123E0900D00FEAFAD /* FlightSchedulerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightSchedulerUITests.swift; sourceTree = "<group>"; };
 		D406A8A323E0900D00FEAFAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE0819B2406F78B009DB7CF /* APICall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICall.swift; sourceTree = "<group>"; };
+		FAE081D92407A993009DB7CF /* UserToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserToken.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				D406A87F23E0900B00FEAFAD /* AppDelegate.swift */,
 				D406A88123E0900B00FEAFAD /* SceneDelegate.swift */,
 				D406A88323E0900B00FEAFAD /* ViewController.swift */,
+				FAE0819B2406F78B009DB7CF /* APICall.swift */,
+				FAE081D92407A993009DB7CF /* UserToken.swift */,
 				D406A88523E0900B00FEAFAD /* Main.storyboard */,
 				D406A88823E0900D00FEAFAD /* Assets.xcassets */,
 				D406A88A23E0900D00FEAFAD /* LaunchScreen.storyboard */,
@@ -261,6 +267,8 @@
 			files = (
 				D406A88423E0900B00FEAFAD /* ViewController.swift in Sources */,
 				D406A88023E0900B00FEAFAD /* AppDelegate.swift in Sources */,
+				FAE081DA2407A994009DB7CF /* UserToken.swift in Sources */,
+				FAE0819C2406F78B009DB7CF /* APICall.swift in Sources */,
 				D406A88223E0900B00FEAFAD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
