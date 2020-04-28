@@ -10,6 +10,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FlightScheduler" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -27,6 +28,14 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8m0-lK-xnP">
+                                <rect key="frame" x="154" y="525" width="74" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Go to Data"/>
+                                <connections>
+                                    <segue destination="Qdy-s3-bSp" kind="show" id="ZVa-iC-gu2"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -41,36 +50,33 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="EyW-aE-aLZ"/>
-                    <connections>
-                        <segue destination="7PH-ya-usl" kind="show" id="eFq-3p-5ka"/>
-                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1047.8260869565217" y="118.52678571428571"/>
         </scene>
         <!-- Airline Schedules-->
         <scene sceneID="2VO-xY-Xqd">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yxH-nk-hBs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="mRR-L3-ik3" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ehR-Jx-SKs">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="G87-f9-jMK"/>
                     </view>
                     <navigationItem key="navigationItem" title=" Airline Schedules" id="5TK-4H-M3c"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="yxH-nk-hBs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3328" y="119"/>
         </scene>
         <!-- Destination-->
         <scene sceneID="zQ3-xj-l4H">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Po4-18-Zl2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="i6P-fp-j8x" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uhE-Am-oR7">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Sd9-Zr-TJF">
@@ -97,13 +103,13 @@
                         <segue destination="mRR-L3-ik3" kind="show" id="uhr-3L-3tS"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Po4-18-Zl2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2571" y="119"/>
         </scene>
         <!--Origin-->
         <scene sceneID="ECn-kz-jzy">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xcR-9O-tgv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="7PH-ya-usl" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ze6-Iv-gaS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -133,13 +139,66 @@
                         <segue destination="i6P-fp-j8x" kind="show" id="4fH-Rv-u5f"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="xcR-9O-tgv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1804" y="119"/>
+        </scene>
+        <!--Flight Detail View Controller-->
+        <scene sceneID="0VE-jW-ccb">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="Qdy-s3-bSp" customClass="FlightDetailViewController" customModule="FlightScheduler" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1cw-Z7-XRW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="49" translatesAutoresizingMaskIntoConstraints="NO" id="s5Z-EY-ZwO">
+                                <rect key="frame" x="157" y="314.5" width="100" height="267"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PXC-Z7-myV">
+                                        <rect key="frame" x="0.0" y="0.0" width="100" height="30"/>
+                                        <state key="normal" title="Create Flight"/>
+                                        <connections>
+                                            <action selector="createFlight:" destination="Qdy-s3-bSp" eventType="touchUpInside" id="Lna-nA-N7n"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3eT-48-bTq">
+                                        <rect key="frame" x="0.0" y="79" width="100" height="30"/>
+                                        <state key="normal" title="Get Flights"/>
+                                        <connections>
+                                            <action selector="getFlight:" destination="Qdy-s3-bSp" eventType="touchUpInside" id="cpA-Tt-G0F"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fQt-Da-1gO">
+                                        <rect key="frame" x="0.0" y="158" width="100" height="30"/>
+                                        <state key="normal" title="Update Flights"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="on1-4o-loU">
+                                        <rect key="frame" x="0.0" y="237" width="100" height="30"/>
+                                        <state key="normal" title="Delete Flighst"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="8ey-xK-sCV"/>
+                                    <constraint firstAttribute="height" constant="267" id="Zid-67-rzo"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="s5Z-EY-ZwO" firstAttribute="centerY" secondItem="1cw-Z7-XRW" secondAttribute="centerY" id="lXe-SS-qGb"/>
+                            <constraint firstItem="s5Z-EY-ZwO" firstAttribute="centerX" secondItem="1cw-Z7-XRW" secondAttribute="centerX" id="rGS-Zj-1ZL"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="DXC-Pm-Ack"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="w2R-dQ-lzJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vWe-0s-2Zb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3242" y="805"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="cBj-Jo-K9n">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EG8-VS-Uot" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Cyj-uT-dGs" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="x4m-9u-sXD">
@@ -151,9 +210,30 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ueq-pd-S8l"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="EG8-VS-Uot" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="118.52678571428571"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="GrY-tQ-pHK">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="euh-Vr-G87" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Als-9z-RKf" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="gUJ-l0-lnF"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="E4m-hM-PMi">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Qdy-s3-bSp" kind="show" id="H4S-h6-gQH"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="1489.8550724637682" y="808.92857142857144"/>
+        </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="ZVa-iC-gu2"/>
+    </inferredMetricsTieBreakers>
 </document>
